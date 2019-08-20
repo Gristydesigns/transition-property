@@ -4,8 +4,9 @@ height: 50px;
 background-color: #bada55;
 transition-property: width, background-color;
     transition-delay: 2s;
+    transition-timing-function: ease-in-out
 }
-.box {
+.box hover {
     width: 150px;
     backgound-color: #c84610 /*red*/ 
 }
